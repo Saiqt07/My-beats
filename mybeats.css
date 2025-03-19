@@ -13,6 +13,12 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.main-nav {
+    background-color: #333333;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 .main-nav ul {
     list-style: none;
     margin: 0;
@@ -49,7 +55,6 @@ body {
 .main-nav i {
     margin-right: 8px;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
