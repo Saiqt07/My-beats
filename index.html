@@ -3,114 +3,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Beats</title>
+    <title>My Beats | Music Collection</title>
+    <meta name="description" content="A curated collection of my favorite songs across Rock, OPM, and Chill music genres">
     <link rel="stylesheet" href="mybeats.css">
     <script src="https://kit.fontawesome.com/572eff73f2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="main-nav">
-        <ul>
-            <li><a href="https://saiqt07.github.io/website/"><i class="fa-solid fa-house"></i> Home</a></li>
-            <li><a href="https://saiqt07.github.io/Bio/"><i class="fa-solid fa-user"></i> BIOGRAPHY</a></li>
-            <li><a href="https://saiqt07.github.io/skills/"><i class="fa-solid fa-lightbulb"></i> Skills</a></li>
-            <li><a href="https://saiqt07.github.io/Resume/"><i class="fa-solid fa-file"></i> Resume</a></li>
-            <li><a href="https://saiqt07.github.io/photo-dump/"><i class="fa-solid fa-images"></i> Photo Gallery</a></li>
-            <li><a href="https://saiqt07.github.io/My-beats/"><i class="fa-brands fa-spotify"></i> My beats</a></li>
-            <li><a href="https://saiqt07.github.io/My-film/"><i class="fa-solid fa-film"></i> My Film</a></li>
-        </ul>
+        <div class="nav-container">
+            <ul>
+                <li><a href="https://saiqt07.github.io/website/"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="https://saiqt07.github.io/Bio/"><i class="fa-solid fa-user"></i> Biography</a></li>
+                <li><a href="https://saiqt07.github.io/skills/"><i class="fa-solid fa-lightbulb"></i> Skills</a></li>
+                <li><a href="https://saiqt07.github.io/Resume/"><i class="fa-solid fa-file"></i> Resume</a></li>
+                <li><a href="https://saiqt07.github.io/photo-dump/"><i class="fa-solid fa-images"></i> Gallery</a></li>
+                <li class="active"><a href="https://saiqt07.github.io/My-beats/"><i class="fa-brands fa-spotify"></i> My Beats</a></li>
+                <li><a href="https://saiqt07.github.io/My-film/"><i class="fa-solid fa-film"></i> My Film</a></li>
+                <li><a href="../tv shows/index.html"><i class="fa-solid fa-tv"></i> TV Shows</a></li>
+                <li><a href="../bucket list/index.html"><i class="fas fa-list"></i> Bucket List</a></li>
+                <li><a href="../places to visit/index.html"><i class="fa-solid fa-plane"></i> Dream Places</a></li>
+            </ul>
+        </div>
     </nav>
-    <div class="container">
-        <h1>My Beats</h1>
-
-        <div class="category">
+    
+    <header class="page-header">
+        <div class="container">
+            <h1><i class="fa-solid fa-headphones-simple"></i> My Beats Collection</h1>
+            <p class="subtitle">A curated selection of my favorite tracks across different genres</p>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="category" id="rock">
             <h2><i class="fa-solid fa-guitar"></i> Rock</h2>
             <div class="audio-grid">
                 <div class="audio-clip">
-                    <h3><i class="fa-solid fa-music" style="color: #1e3a5f;"></i> Song: Let It Happen</h3>
-                    <p><i class="fa-solid fa-user" style="color: #333333;"></i> Artist: Tame Impala</p>
+                    <div class="album-cover">
+                        <img src="https://i.scdn.co/image/ab67616d0000b2739e1cfc756886ac782e363d79" alt="Tame Impala - Let It Happen">
+                    </div>
+                    <div class="audio-info">
+                        <h3><i class="fa-solid fa-music"></i> Let It Happen</h3>
+                        <p class="artist"><i class="fa-solid fa-user"></i> Tame Impala</p>
+                        <p class="genre-tag">Psychedelic Rock</p>
+                        <p class="song-description">The opening track from the album "Currents" (2015)</p>
+                    </div>
                     <audio controls>
                         <source src="Tame Impala - Let It Happen.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
                 <div class="audio-clip">
-                    <h3><i class="fa-solid fa-music" style="color: #1e3a5f;"></i> Song: Mundo</h3>
-                    <p><i class="fa-solid fa-user" style="color: #333333;"></i> Artist: IV OF SPADES</p>
+                    <div class="album-cover">
+                        <img src="https://i.scdn.co/image/ab67616d0000b2731aaed2d9bea791b5488e08a2" alt="IV OF SPADES - Mundo">
+                    </div>
+                    <div class="audio-info">
+                        <h3><i class="fa-solid fa-music"></i> Mundo</h3>
+                        <p class="artist"><i class="fa-solid fa-user"></i> IV OF SPADES</p>
+                        <p class="genre-tag">Filipino Rock</p>
+                        <p class="song-description">A beloved Filipino rock anthem released in 2018</p>
+                    </div>
                     <audio controls>
                         <source src="Mundo .mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
                 <div class="audio-clip">
-                    <h3><i class="fa-solid fa-music" style="color: #1e3a5f;"></i> Song: Ikot</h3>
-                    <p><i class="fa-solid fa-user" style="color: #333333;"></i> Artist: Over October</p>
+                    <div class="album-cover">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273d0a3b5902f672bb3e63cbee5" alt="Over October - Ikot">
+                    </div>
+                    <div class="audio-info">
+                        <h3><i class="fa-solid fa-music"></i> Ikot</h3>
+                        <p class="artist"><i class="fa-solid fa-user"></i> Over October</p>
+                        <p class="genre-tag">Alternative Rock</p>
+                        <p class="song-description">From their "Press Play" EP released in 2019</p>
+                    </div>
                     <audio controls>
                         <source src="ikot.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="category">
+        <section class="category" id="opm">
             <h2><i class="fa-solid fa-record-vinyl"></i> OPM</h2>
             <div class="audio-grid">
                 <div class="audio-clip">
-                    <h3><i class="fa-solid fa-music" style="color: #1e3a5f;"></i> Song: Isa Lang</h3>
-                    <p><i class="fa-solid fa-user" style="color: #333333;"></i> Artist: Arthur Nery</p>
+                    <div class="album-cover">
+                        <img src="https://cdn-images.dzcdn.net/images/cover/54297df79fccce7e943954b1258c6584/0x1900-000000-80-0-0.jpg" alt="Arthur Nery - Isa Lang">
+                    </div>
+                    <div class="audio-info">
+                        <h3><i class="fa-solid fa-music"></i> Isa Lang</h3>
+                        <p class="artist"><i class="fa-solid fa-user"></i> Arthur Nery</p>
+                        <p class="genre-tag">R&B/Soul</p>
+                        <p class="song-description">A soulful hit from one of OPM's rising stars</p>
+                    </div>
                     <audio controls>
                         <source src="Isa lang - Arthur Nery .mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
                 <div class="audio-clip">
-                    <h3><i class="fa-solid fa-music" style="color: #1e3a5f;"></i> Song: Ikaw Lang</h3>
-                    <p><i class="fa-solid fa-user" style="color: #333333;"></i> Artist: Nobita</p>
+                    <div class="album-cover">
+                        <img src="https://i.scdn.co/image/ab67616d00001e02c4c0f8a3f5973ecbe5959188" alt="Nobita - Ikaw Lang">
+                    </div>
+                    <div class="audio-info">
+                        <h3><i class="fa-solid fa-music"></i> Ikaw Lang</h3>
+                        <p class="artist"><i class="fa-solid fa-user"></i> Nobita</p>
+                        <p class="genre-tag">Pop/Rock</p>
+                        <p class="song-description">From their album "Mga Palabas ng Ating Buhay"</p>
+                    </div>
                     <audio controls>
                         <source src="NOBITA - IKAW LANG.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
                 <div class="audio-clip">
-                    <h3><i class="fa-solid fa-music" style="color: #1e3a5f;"></i> Song: Hangang Kailan</h3>
-                    <p><i class="fa-solid fa-user" style="color: #333333;"></i> Artist: Orange & Lemons</p>
+                    <div class="album-cover">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273d2d64da149efe89b673ced0e" alt="Orange & Lemons - Hangang Kailan">
+                    </div>
+                    <div class="audio-info">
+                        <h3><i class="fa-solid fa-music"></i> Hangang Kailan</h3>
+                        <p class="artist"><i class="fa-solid fa-user"></i> Orange & Lemons</p>
+                        <p class="genre-tag">Indie Pop</p>
+                        <p class="song-description">A classic from their "Love in the Land of Rubber Shoes and Dirty Ice Cream" album</p>
+                    </div>
                     <audio controls>
                         <source src="Orange & Lemons.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="category">
+        <section class="category" id="chill">
             <h2><i class="fa-solid fa-headphones"></i> Chill</h2>
             <div class="audio-grid">
                 <div class="audio-clip">
-                    <h3><i class="fa-solid fa-music" style="color: #1e3a5f;"></i> Song: Kalimutan Ka</h3>
-                    <p><i class="fa-solid fa-user" style="color: #333333;"></i> Artist: Skusta Clee</p>
+                    <div class="album-cover">
+                        <img src="https://i.scdn.co/image/ab67616d0000b2731b463d79605f00026aa6bf1e" alt="Skusta Clee - Kalimutan Ka">
+                    </div>
+                    <div class="audio-info">
+                        <h3><i class="fa-solid fa-music"></i> Kalimutan Ka</h3>
+                        <p class="artist"><i class="fa-solid fa-user"></i> Skusta Clee</p>
+                        <p class="genre-tag">Hip-Hop/R&B</p>
+                        <p class="song-description">A heartfelt track about letting go and moving on</p>
+                    </div>
                     <audio controls>
                         <source src="Skusta Clee - Kalimutan Ka.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
                 <div class="audio-clip">
-                    <h3><i class="fa-solid fa-music" style="color: #1e3a5f;"></i> Song: Oras</h3>
-                    <p><i class="fa-solid fa-user" style="color: #333333;"></i> Artist: Calein</p>
+                    <div class="album-cover">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273a979169c8f20ff8320ab9521" alt="Calein - Oras">
+                    </div>
+                    <div class="audio-info">
+                        <h3><i class="fa-solid fa-music"></i> Oras</h3>
+                        <p class="artist"><i class="fa-solid fa-user"></i> Calein</p>
+                        <p class="genre-tag">Lo-Fi</p>
+                        <p class="song-description">A relaxing lo-fi beat perfect for study sessions</p>
+                    </div>
                     <audio controls>
                         <source src="CALEIN - Oras .mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
                 <div class="audio-clip">
-                    <h3><i class="fa-solid fa-music" style="color: #1e3a5f;"></i> Song: Umaasa</h3>
-                    <p><i class="fa-solid fa-user" style="color: #333333;"></i> Artist: Calein</p>
+                    <div class="album-cover">
+                        <img src="https://i.scdn.co/image/ab67616d0000b2732d6a3c20c37868408e4ae97f" alt="Calein - Umaasa">
+                    </div>
+                    <div class="audio-info">
+                        <h3><i class="fa-solid fa-music"></i> Umaasa</h3>
+                        <p class="artist"><i class="fa-solid fa-user"></i> Calein</p>
+                        <p class="genre-tag">Lo-Fi</p>
+                        <p class="song-description">A soothing melody about hope and aspiration</p>
+                    </div>
                     <audio controls>
                         <source src="Calein - Umaasa .mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
             </div>
+        </section>
+    </main>
+    <a href="#top" class="go-top-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
         </div>
-    </div>
+    </footer>
 </body>
 </html>
